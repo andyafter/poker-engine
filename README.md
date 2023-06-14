@@ -1,4 +1,4 @@
-# Poker AI: Building a Pluribus-like Bot
+# Poker AI: Building a Pluribus-like AI
 
 This repository contains code and resources for building a poker AI inspired by Pluribus, the AI developed by Facebook AI Research and Carnegie Mellon University.
 
