@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(OMPEval)
 
 file(GLOB OMPEval_SRC "OMPEval/omp/*.cpp")
-add_executable(poker-engine src/main.cpp ${OMPEval_SRC})
+file(GLOB SOURCES "src/*.cpp")
+add_executable(poker-engine ${SOURCES} ${OMPEval_SRC})
+
