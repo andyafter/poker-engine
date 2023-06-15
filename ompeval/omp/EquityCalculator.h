@@ -7,6 +7,7 @@
 #include "HandEvaluator.h"
 #include "Constants.h"
 #include "Util.h"
+#include <functional>
 #include <chrono>
 #include <thread>
 #include <mutex>
