@@ -11,24 +11,47 @@ Our goal is to build an AI that uses similar techniques to play poker. This is a
 ## Project Structure
 
 - `src/`: This directory contains the source code for the poker AI.
-- `data/`: This directory contains any data used by the AI, such as precomputed strategies or training data.
 - `docs/`: This directory contains documentation for the project.
 
-## Setup
+## Prerequisites
 
-To set up the project, follow these steps:
+- CMake version 3.10 or higher
+- A C++ compiler that supports the C++11 standard
 
-1. Clone the repository: `git clone https://github.com/yourusername/poker-ai.git`
-2. Navigate to the project directory: `cd poker-ai`
-3. Install the required dependencies: `pip install -r requirements.txt`
+## Building the Project
 
-## Usage
+1. Clone the repository:
 
-To run the poker AI, use the following command:
+   ```
+   git clone https://github.com/yourusername/MyProject.git
+   cd MyProject
+   ```
 
-```bash
-python main.py
-```
+2. Create a build directory and navigate into it:
+
+   ```
+   mkdir build
+   cd build
+   ```
+
+3. Run CMake to generate the build files. You can specify the build type by setting the `BUILD_TYPE` variable. The options are `DEV`, `STAGING`, and `PROD`:
+
+   ```
+   cmake .. -DBUILD_TYPE=DEV
+   ```
+
+4. Build the project:
+   ```
+   cmake --build .
+   ```
+
+## Running the Project
+
+After building the project, you can run it with the following command:
+
+    ```
+    ./poker-engine
+    ```
 
 ## Contributing
 
